@@ -74,6 +74,24 @@
             Console.WriteLine("Press ENTER to continue");
             Console.ReadLine();
             Console.Clear();
+            Console.Write("Question 4: Should pineapple belong on pizza (Yes it does or No it doesnt you psychopath)? ");
+            answer = Console.ReadLine();
+            if (answer.ToLower() == "yes it does")
+            {
+                Console.WriteLine("Correct. Your opinion is valid here in this quiz");
+            }
+            else if (answer.ToLower() == "No it doesnt you psychopath")
+            {
+                Console.WriteLine("Correct. Geez way to say your opinion but your opinion is valid here in this quiz");
+            }
+            else
+            {
+                Console.WriteLine("Sorry I didn't quite get that. Try saying it louder");
+            }
+            Console.WriteLine();
+            Console.WriteLine("Press ENTER to continue");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }
